@@ -15,11 +15,15 @@
 
     <nav class="text-3xl bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
         <img src="Images/Logo Green.png" class="w-30 h-25">
+        <div>
+            <input type="text" placeholder="Searh for flower" class="rounded-xl w-70 text-center p-2 text-xs border border-black md:hidden relative right-13 top-3">
+        </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="size-6 md:hidden">
+            class="size-6 md:hidden absolute right-2 bottom-8 cursor-pointer">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
+        
 
 
         <ul class="flex gap-5 text-xl bg-green-200 hidden md:flex">
@@ -32,6 +36,18 @@
             <li>
                 <a href="#" class="hover:underline hover:text-black">Services</a>
             </li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+</svg>
+
+            </li>
+            <li>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+</svg>
+
+            </li>
         </ul>
     </nav>
 
@@ -43,10 +59,9 @@
             <h2 class="font-bold text-3xl mb-6">Redefining the way you garden.<br> Smarter. Greener. Better.</h2>
 
             <div>
-                <button
-                    class="bg-black rounded p-4 text-white hover:cursor-pointer hover:bg-green-300 hover:text-black">Shop
-                    Now</button>
-                <button class="border border-black rounded p-4 hover:bg-gray-200">Watch Video</button>
+                <button class="bg-black rounded p-4 text-white transition-all duration-300 ease-in-out hover:bg-green-300 hover:text-black hover:scale-105">Shop Now</button>
+<button class="border border-black rounded p-4 transition-all duration-300 ease-in-out hover:bg-gray-200 hover:scale-105">Watch Video</button>
+
             </div>
 
 
@@ -113,37 +128,37 @@
         <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-6 justify-between text-center">
             <div>
                 <img src="Images/Rose Pot.jpg" alt="Rose Pot"
-                    class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Rose Plant</h1>
                 <p>20$</p>
             </div>
             <div>
                 <img src="Images/Lily Pot.jpg" alt="Lily Pot"
-                    class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Lily Plant</h1>
                 <p>30$</p>
             </div>
             <div>
                 <img src="Images/flowerPot.jpg" alt="flower Pot"
-                    class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Mixed Plant</h1>
                 <p>50$</p>
             </div>
             <div>
                 <img src="Images/snake plant.jpg" alt="Snake Pot"
-                    class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Snake Plant</h1>
                 <p>70$</p>
             </div>
             <div>
                 <img src="Images/violet plant.jpg" alt="violet Pot"
-                    class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Snake Plant</h1>
                 <p>70$</p>
             </div>
             <div>
                 <img src="Images/None plant.jpg" alt="None Pot"
-                    class="inline hover:shadow-xl transform hover:-translate-y-2">
+                    class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Snake Plant</h1>
                 <p>70$</p>
             </div>
@@ -154,23 +169,23 @@
     <!--Customer Review-->
     
     <h1 class="text-3xl font-bold mt-5 text-center">Our Happy Customers!</h1>
-    <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4 justify-between text-center">
-        <div class="inline hover:shadow-xl transform hover:-translate-y-2 p-5 bg-green-800 text-white m-4 rounded-xl">
+    <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4 justify-between text-center grow-0">
+        <div class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105 p-5 bg-green-800 text-white m-4 rounded-xl">
             <p>Absolutely love GreenBloom! My garden has never looked this vibrant. Their products are top-notch and
                 eco-friendly.</p>
             <p class="italic mt-5 text-yellow-300">— Priya S., Chennai</p>
         </div>
-        <div class="inline hover:shadow-xl transform hover:-translate-y-2 p-5 bg-green-800 text-white m-4 rounded-xl">
+        <div class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105 p-5 bg-green-800 text-white m-4 rounded-xl">
             <p>I was a total beginner, but GreenBloom made plant care super easy. The rose plant I got is blooming like
                 crazy!</p>
             <p class="italic mt-5 text-yellow-300">— Rahul M., Bangalore</p>
         </div>
-        <div class="inline hover:shadow-xl transform hover:-translate-y-2 p-5 bg-green-800 text-white m-4 rounded-xl">
+        <div class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105 p-5 bg-green-800 text-white m-4 rounded-xl">
             <p>From packaging to product quality, everything was perfect. Fast delivery and excellent customer support
                 too!</p>
             <p class="italic mt-5 text-yellow-300">— Sneha R., Coimbatore</p>
         </div>
-        <div class="inline hover:shadow-xl transform hover:-translate-y-2 p-5 bg-green-800 text-white m-4 rounded-xl">
+        <div class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105 p-5 bg-green-800 text-white m-4 rounded-xl">
             <p>I've ordered three times already. The snake plant is my favorite – so fresh and healthy every time. 10/10
                 would recommend!</p>
             <p class="italic mt-5 text-yellow-300">— Vikram T., Hyderabad</p>
