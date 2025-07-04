@@ -7,48 +7,50 @@
     <link href="./output.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>GreenBloom</title>
+    <link rel="icon" href="Images/sustainability.png">
 </head>
 
-<body class="m-0 p-0">
+<body class="m-0 p-0 mb-10">
 
     <!--Responsive Navbar-->
 
-    <nav class="text-3xl bg-green-200 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
-        <img src="Images/Logo Green.png" class="w-30 h-25">
+    <nav class="text-3xl bg-green-200 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <img src="Images/Logo Green.png" class="w-25 h-20 ml-4 transition-all duration-300 ease-in-out hover:scale-105 hover:cursor-pointer">
         <div>
-            <input type="text" placeholder="Searh for flower" class="rounded-xl w-70 text-center p-2 text-xs border border-black md:hidden relative right-13 top-3">
+            <input type="text" placeholder="Searh for flower" class="rounded-xl w-70 text-center p-2 text-xs border border-black md:hidden relative right-13">
         </div>
 
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-            class="size-6 md:hidden absolute right-2 bottom-8 cursor-pointer">
+            class="size-6 md:hidden absolute right-2 cursor-pointer">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
         </svg>
         
 
 
-        <ul class="flex gap-5 text-xl bg-green-200 hidden md:flex">
-            <li>
-                <a href="#" class="hover:underline  hover:text-black">Home</a>
-            </li>
-            <li>
-                <a href="#" class="hover:underline hover:text-black">Products</a>
-            </li>
-            <li>
-                <a href="#" class="hover:underline hover:text-black">Services</a>
-            </li>
-            <li>
+        <div class="flex gap-5 text-xl bg-green-200 hidden md:flex items-center mr-4">
+            <div>
+                <a href="#" class="hover:text-black shadow-xl border-none hover:bg-green-300 p-2 rounded-xl">Home</a>
+            </div>
+            
+            <div>
+                <a href="#" class="hover:text-black shadow-xl border-none hover:bg-green-300 p-2 rounded-xl">Products</a>
+            </div>
+            <div>
+                <a href="#" class="hover:text-black shadow-xl border-none hover:bg-green-300 p-2 rounded-xl">Services</a>
+            </div>
+            <div>
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer">
   <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
 </svg>
 
-            </li>
-            <li>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer">
+            </div>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 cursor-pointer mt-0.5">
   <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
 </svg>
 
-            </li>
-        </ul>
+            </div>
+        </div>
     </nav>
 
     <!--Header Section-->
@@ -59,8 +61,8 @@
             <h2 class="font-bold text-3xl mb-6">Redefining the way you garden.<br> Smarter. Greener. Better.</h2>
 
             <div>
-                <button class="bg-black rounded p-4 text-white transition-all duration-300 ease-in-out hover:bg-green-300 hover:text-black hover:scale-105">Shop Now</button>
-<button class="border border-black rounded p-4 transition-all duration-300 ease-in-out hover:bg-gray-200 hover:scale-105">Watch Video</button>
+                <button class="bg-black rounded p-4 text-white transition-all duration-300 ease-in-out hover:bg-green-300 hover:text-black hover:scale-105 cursor-pointer">Shop Now</button>
+<button class="border border-black rounded p-4 transition-all duration-300 ease-in-out hover:bg-gray-200 hover:scale-105 cursor-pointer">Watch Video</button>
 
             </div>
 
@@ -68,7 +70,7 @@
             <p class="mt-5">20+ Plans | 100+ Clients</p>
         </div>
         <div class="hidden md:block p-5 ml-20">
-            <img src="Images/Green Bloom.jpg" class="w-150 h-70">
+            <img src="Images/Green Bloom.jpg" class="w-150 h-70 shadow-2xl hover:scale-105 cursor-pointer border border-black rounded-xl transition-all duration-300 ease-in-out hover:scale-105">
         </div>
     </section>
 
@@ -78,9 +80,9 @@
         <p>GreenBloom is your smart companion for modern gardening — where tech meets nature to help you grow better.</p>
 
         <div class="md:flex">
-            <div class="border border-black p-2 m-6">
+            <div class="border border-gray-400 p-3 m-6 backdrop-blur-2xl bg-gray-100 shadow-2xl rounded-xl">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-18 inline">
+                    stroke="currentColor" class="size-18 inline transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105 hover:text-green-500">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                 </svg>
@@ -93,9 +95,9 @@
                     Every order is handled with love, care, and a splash of nature’s magic.
                 </p>
             </div>
-            <div class="border border-black p-2 m-6 ">
+            <div class="border border-gray-400 p-3 m-6 backdrop-blur-2xl bg-gray-100 shadow-2xl rounded-xl">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-18 inline">
+                    stroke="currentColor" class="size-18 inline transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105 hover:text-green-500">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
                 </svg>
@@ -106,10 +108,10 @@
                     We handle everything — from soil and pots to layout and long-term care.
                     Whether it’s a cozy balcony or a full garden, we keep it fresh and thriving.</p>
             </div>
-            <div class="border border-black p-2 m-6">
+            <div class="border border-gray-400 p-3 m-6 backdrop-blur-2xl bg-gray-100 shadow-2xl rounded-xl">
                
                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="size-18 inline">
+                    stroke="currentColor" class="size-18 inline transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105 hover:text-green-500">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M12 9.75v6.75m0 0-3-3m3 3 3-3m-8.25 6a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z" />
                 </svg>
@@ -120,43 +122,43 @@
                     It’s like having a personal garden assistant in your pocket 24/7.</p>
             </div>
         </div>
-    </section><hr>
+    </section>
 
     <!--  Best Seller-->
     <section class="p-4">
         <h1 class="font-bold mt-5 text-3xl text-center">Best Seller</h1>
         <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-6 justify-between text-center">
-            <div>
+            <div class="hover:border border-gray-400 bg-green-100 shadow-2xl p-2 hover:scale-105 hover:bg-green-200 rounded-xl">
                 <img src="Images/Rose Pot.jpg" alt="Rose Pot"
-                    class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
+                    class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105 hover:border">
                 <h1>Rose Plant</h1>
                 <p>20$</p>
             </div>
-            <div>
+            <div class="hover:border border-gray-400 bg-green-100 shadow-2xl p-2 hover:scale-105 hover:bg-green-200 rounded-xl">
                 <img src="Images/Lily Pot.jpg" alt="Lily Pot"
                     class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Lily Plant</h1>
                 <p>30$</p>
             </div>
-            <div>
+            <div class="hover:border border-gray-400 bg-green-100 shadow-2xl p-2 hover:scale-105 hover:bg-green-200 rounded-xl">
                 <img src="Images/flowerPot.jpg" alt="flower Pot"
                     class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Mixed Plant</h1>
                 <p>50$</p>
-            </div>
-            <div>
+            </div class="hover:border border-gray-400 bg-green-100 shadow-2xl">
+            <div class="hover:border border-gray-400 bg-green-100 shadow-2xl p-2 hover:scale-105 hover:bg-green-200 rounded-xl">
                 <img src="Images/snake plant.jpg" alt="Snake Pot"
                     class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Snake Plant</h1>
                 <p>70$</p>
             </div>
-            <div>
+            <div class="hover:border border-gray-400 bg-green-100 shadow-2xl p-2 hover:scale-105 hover:bg-green-200 rounded-xl ">
                 <img src="Images/violet plant.jpg" alt="violet Pot"
                     class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Snake Plant</h1>
                 <p>70$</p>
             </div>
-            <div>
+            <div class="hover:border border-gray-400 bg-green-100 shadow-2xl p-2 hover:scale-105 hover:bg-green-200 rounded-xl">
                 <img src="Images/None plant.jpg" alt="None Pot"
                     class="inline transition-all duration-300 ease-in-out transform hover:shadow-2xl hover:-translate-y-2 hover:scale-105">
                 <h1>Snake Plant</h1>
@@ -164,7 +166,7 @@
             </div>
         </div>
 
-    </section><hr>
+    </section>
 
     <!--Customer Review-->
     
@@ -191,6 +193,67 @@
             <p class="italic mt-5 text-yellow-300">— Vikram T., Hyderabad</p>
         </div>
     </div>
+       
+    <!--News Letter Section-->
+
+    <div class="text-center p-5">
+      <h1 class=" text-3xl font-bold p-3">Join our News Letter</h1>
+      <p>Signup for our email newspaper to get exclusive discounts, updates and more</p>
+      <div class="px-4 py-3 sm:px-20">
+  <input type="text" placeholder="Write Here...."
+    class="w-full h-12 px-5 border border-gray-600 rounded-xl shadow-xl sm:w-1/2" />
+</div>
+
+      <button class="p-3 bg-black text-white rounded-xl hover:cursor-pointer hover:bg-green-700 hover:underline transition-all duration-300 ease-in-out hover:scale-105">Subscribe</button>
+    </div>
+
+    <!--Footer Section-->
+    <footer>
+        <div class="mx-auto p-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 bg-green-200 text-black w-full mt-5">
+    
+    <!-- Brand -->
+    <div>
+      <h1 class="text-3xl font-semibold mb-3">GreenBloom</h1>
+      <p>Your garden’s favorite partner. Eco-smart. Nature-fresh. 🌱</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-lg font-semibold mb-3 shadow-xl">Quick Links</h3>
+      <ul class="space-y-2">
+        <li><a href="#" class="hover:text-green-500 transition">Home</a></li>
+        <li><a href="#" class="hover:text-green-500 transition">Products</a></li>
+        <li><a href="#" class="hover:text-green-500 transition">Services</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h3 class="text-xl font-semibold mb-3 shadow-xl">Contact Us</h3>
+      <p>Email: support@greenbloom.com</p>
+      <p>Phone: +91 98765 43210</p>
+      <p>Location: Coimbatore, TN</p>
+    </div>
+
+    <!-- Social -->
+    <div>
+      <h3 class="text-xl font-semibold mb-3 shadow-xl">Follow Us</h3>
+      <div class="flex gap-4 text-xl">
+        <a href="#" class="transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105">🌐</a>
+        <a href="#" class="transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105">📷</a>
+        <a href="#" class="transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105">🐦</a>
+        <a href="#" class="transition-all duration-300 ease-in-out transform hover:-translate-y-2 hover:scale-105">📘</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom bar -->
+  <div class="text-center mt-10 text-sm text-gray-600 border-t border-green-400 pt-4">
+    © 2025 GreenBloom. Made with ❤️ by BK.
+  </div>
+    </footer>
+   
+    
 
 </body>
 
